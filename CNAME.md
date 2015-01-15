@@ -1,1 +1,1 @@
-blog.mathant.com
+www.mathant.com
