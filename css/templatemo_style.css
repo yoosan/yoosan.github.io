@@ -281,7 +281,6 @@ input.main-button,
   margin: 0 20px;
 }
 .main-menu ul li a {
-  text-transform: uppercase;
   font-size: 16px;
 }
 .main-menu ul li.active a {
@@ -340,7 +339,6 @@ ul.social-top li a i {
   -moz-background-clip: padding;
   border-radius: 4px;
   background-clip: padding-box;
-  text-transform: uppercase;
 }
 #responsive-menu ul li a i {
   margin-right: 15px;
@@ -399,8 +397,8 @@ a#mobile_menu {
 #services {
   background: url(../images/service-bg.png) no-repeat top center;
   background-size: cover;
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 150px;
+  padding-bottom: 120px;
   position: relative;
   z-index: 10;
   margin-top: 20px;
@@ -435,7 +433,6 @@ a#mobile_menu {
   line-height: 136px;
 }
 #services .service-item h3.service-title {
-  text-transform: uppercase;
   font-size: 16px;
   color: #39c8e2;
   font-weight: 600;
@@ -613,17 +610,17 @@ a#mobile_menu {
   }*/
   ul.social-top {
     margin-top: 10px;
-	margin-left: 10px;
+    margin-left: 10px;
   }
   ul.social-top span {
 	  font-size: 10px;
   }
   .top-c {
   	background-image: none;
-    background-color: #39c8e2;
+	background-color: #39c8e2;
 	background-position: top;
 	height: auto;
-    padding-bottom: 60px;
+	padding-bottom: 60px;
   }
   .top-c .topc-img {
     margin-top: 100px;
