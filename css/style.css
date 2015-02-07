@@ -1,15 +1,15 @@
 body{
-	padding-top: 30px;
-	background-color: #3B3B3B;
+  padding-top: 30px;
+  background-color: #3B3B3B;
 }
 
 .info{
-	padding-top: 20px;
+  padding-top: 20px;
 }
 
 a:link{
-	text-decoration:none;
-	color: #BF3EFF;
+  text-decoration:none;
+  color: #BF3EFF;
 }
 a:visited{
   text-decoration:none;
@@ -21,62 +21,105 @@ a:hover{
 }
 
 .info p{
-	margin-top: 80px;
-	text-align: center;
-	color: #BF3EFF;
-	font-size: 5em;
-	font-family: Verdana;
+  margin-top: 80px;
+  text-align: center;
+  color: #BF3EFF;
+  font-size: 5em;
+  font-family: Verdana;
 }
 hr.divider{
-	margin-left: 150px;
-	margin-right: 150px;
-	background-color: blue;
-	border:0;
-	height: 1px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: blue;
+  border:0;
+  height: 1px;
 }
 
 .container{
-	height: 10em;
-	margin: 0px 130px 0px 130px;
-	color: white;
-  	position: relative;
-  	z-index: 10;
+  height: 10em;
+  margin: 0px 130px 0px 130px;
+  padding-left: 15px;
+  color: white;
+    position: relative;
+    z-index: 10;
 }
 .container .icon{
-  	width: 116px;
-  	height: 116px;
-  	margin: 30px 30px 20px 30px;
-  	line-height: 116px;
-  	text-align: center;
-  	color: #BF3EFF;
-  	border: 2px solid #BF3EFF;
-  	-webkit-border-radius: 50%;
-  	-webkit-background-clip: padding-box;
-  	-moz-border-radius: 50%;
-  	-moz-background-clip: padding;
-  	border-radius: 50%;
-  	background-clip: padding-box;
-  	font-size: 32px;
-  	-webkit-transition: all 250ms ease-in-out;
-  	-moz-transition: all 250ms ease-in-out;
-  	-o-transition: all 250ms ease-in-out;
-  	transition: all 250ms ease-in-out;
-  	-webkit-transform: rotate(0);
-  	-moz-transform: rotate(0);
-  	-o-transform: rotate(0);
-  	-ms-transform: rotate(0);
-  	transform: rotate(0);
+    width: 116px;
+    height: 116px;
+    margin: 30px 25px 20px 30px;
+    line-height: 116px;
+    text-align: center;
+    color: #BF3EFF;
+    border: 2px solid #BF3EFF;
+    -webkit-border-radius: 50%;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 50%;
+    -moz-background-clip: padding;
+    border-radius: 50%;
+    background-clip: padding-box;
+    font-size: 32px;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
 }
 .contariner .icon i{
-	text-align: center;
-	line-height: 116px;
+  text-align: center;
+  line-height: 116px;
 }
 .container .icon:hover{
-    background: #3B3B3B;
-  	color: #ffffff;
-  	-webkit-transform: rotate(360deg);
-  	-moz-transform: rotate(360deg);
-  	-o-transform: rotate(360deg);
-  	-ms-transform: rotate(360deg);
-  	transform: rotate(360deg);
+    background: #BF3EFF;
+    color: #ffffff;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.nameinfo{
+  margin-bottom: 30px;
+}
+.nameinfo h1{
+  text-align: center;
+  color: #BF3EFF;
+  font-size: 40px;
+  font-family: Verdana;
+}
+.nameinfo h2{
+  text-align: center;
+  color: #BF3EFF;
+  font-size: 1em;
+  font-family: Verdana;
+}
+.infosum h2{
+  margin-top: 20px;
+  margin-left: 150px;
+  color: #BF3EFF;
+  font-size: 25px;
+  font-family: Verdana;
+}
+.infosum p{
+  margin: 3px 0px 0px 0px;
+  color: #BF3EFF;
+  font-size: 1em;
+}
+.infosum .year p{
+  margin-top: 3px;
+  margin-left: 150px;
+  margin-right: 20px;
+  color: #BF3EFF;
+  font-size: 1em;
+}
+.infosum h3{
+  position: relative;
+  margin-top: 2px;
+  margin-left: inherit;
+  color: #BF3EFF;
+  font-size: 1em;
+  font-family: Verdana;
 }
