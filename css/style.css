@@ -28,26 +28,25 @@ a:hover{
   font-family: Verdana;
 }
 hr.divider{
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 80px;
+  margin-right: 80px;
   background-color: blue;
   border:0;
   height: 1px;
 }
 
-.container{
-  height: 10em;
-  margin: 0px 130px 0px 130px;
-  padding-left: 15px;
-  color: white;
+#container{
+    height: 15em;
+    display: block;
+    color: green;
     position: relative;
     z-index: 10;
 }
-.container .icon{
-    width: 116px;
-    height: 116px;
-    margin: 30px 25px 20px 30px;
-    line-height: 116px;
+#container .icon{
+    width: 120px;
+    height: 120px;
+    margin: 50px 25px 20px 20px;
+    line-height: 120px;
     text-align: center;
     color: #BF3EFF;
     border: 2px solid #BF3EFF;
@@ -68,11 +67,11 @@ hr.divider{
     -ms-transform: rotate(0);
     transform: rotate(0);
 }
-.contariner .icon i{
+#contariner .icon i{
   text-align: center;
-  line-height: 116px;
+  line-height: 120px;
 }
-.container .icon:hover{
+#container .icon:hover{
     background: #BF3EFF;
     color: #ffffff;
     -webkit-transform: rotate(360deg);
