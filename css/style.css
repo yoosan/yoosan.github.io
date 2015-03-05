@@ -27,9 +27,8 @@ a:hover{
   font-size: 5em;
   font-family: Verdana;
 }
-hr.divider{
-  margin-left: 80px;
-  margin-right: 80px;
+.divider{
+  margin: auto 5%;
   background-color: blue;
   border:0;
   height: 1px;
@@ -113,4 +112,5 @@ hr.divider{
   height: 1px;
   background-color: blue; 
 }
+
 
