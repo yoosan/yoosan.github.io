@@ -36,6 +36,7 @@ hr.divider{
 }
 
 #container{
+    margin: 0px auto;
     height: 15em;
     display: block;
     color: green;
@@ -80,45 +81,35 @@ hr.divider{
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
-.nameinfo{
-  margin-bottom: 30px;
+.project{
+  margin: 50px auto;
+  width: 200px;
+  height: 150px;
+  background-color: rgba(215,215,215,0.5);
+  border-radius: 15px;
 }
-.nameinfo h1{
+
+.project p{
   text-align: center;
-  color: #BF3EFF;
-  font-size: 40px;
+  margin: 10px 10px;
   font-family: Verdana;
-}
-.nameinfo h2{
-  text-align: center;
-  color: #BF3EFF;
-  font-size: 1em;
-  font-family: Verdana;
-}
-.infosum h2{
-  margin-top: 20px;
-  margin-left: 150px;
-  color: #BF3EFF;
   font-size: 25px;
-  font-family: Verdana;
+  color: #D2691E;
 }
-.infosum p{
-  margin: 3px 0px 0px 0px;
-  color: #BF3EFF;
-  font-size: 1em;
+
+.title{
+  padding-top: 10px;
+  margin: 10px auto;
+  text-align: center;
 }
-.infosum .year p{
-  margin-top: 3px;
-  margin-left: 150px;
-  margin-right: 20px;
-  color: #BF3EFF;
-  font-size: 1em;
+.title a{
+  font-size: 30px;
 }
-.infosum h3{
-  position: relative;
-  margin-top: 2px;
-  margin-left: inherit;
-  color: #BF3EFF;
-  font-size: 1em;
-  font-family: Verdana;
+#boxhr{
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 0;
+  height: 1px;
+  background-color: blue; 
 }
+
