@@ -82,10 +82,11 @@ hr.divider{
     transform: rotate(360deg);
 }
 .project{
+  position: relative;
   margin: 50px auto;
   width: 200px;
   height: 150px;
-  background-color: rgba(215,215,215,0.5);
+  background-color: rgba(215,215,215,0.2);
   border-radius: 15px;
 }
 
