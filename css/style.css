@@ -83,8 +83,8 @@ a:hover{
 .project{
   position: relative;
   margin: 50px auto;
-  width: 210px;
-  height: 160px;
+  width: 200px;
+  height: 150px;
   background-color: rgba(215,215,215,0.2);
   border-radius: 15px;
 }
