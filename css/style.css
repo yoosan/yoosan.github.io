@@ -84,18 +84,18 @@ a:hover{
 .project{
   position: relative;
   margin: 50px auto;
-  width: 200px;
-  height: 150px;
+  width: 220px;
+  height: 140px;
   background-color: rgba(215,215,215,0.2);
   border-radius: 15px;
 }
 
 .project p{
+  position: relative;
   text-align: center;
   left: 10px;
-  top: 10px;
   font-family: Verdana;
-  font-size: 25px;
+  font-size: 22px;
   color: #D2691E;
 }
 
