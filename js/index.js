@@ -17,16 +17,15 @@ $(document).ready(function() {
 	$('section > div >div > div >#entertainment').click(function(){
 		window.open("entertainment.html");
 	});
-	/*$('header > nav > ul > li > a').click(
+	$('header > nav > ul > li').hover(
 		function(){
-			$('header > nav > ul >li > ul').css('display','block');},
+			$('header > nav > ul >li > ul').css('display', 'block');/*},
 		function(){
-			$('header > nav > ul >li > ul').css('display','none');
-	});*/
-	$('header > nav > ul > li > a').hover(
-		function(){
-			$('header > nav > ul >li > ul').css('display','block');},
-		function(){
-			$('header > nav > ul >li > ul').css('display','block');
+			$('header > nav > ul >li > ul').slideUp(3000);*/
 	});
+	$('header > nav > ul >li > ul').hover(function(){},
+		function(){
+				$('header > nav > ul >li > ul').slideUp(2000);
+		}
+	);
 });

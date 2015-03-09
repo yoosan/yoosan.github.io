@@ -56,7 +56,7 @@ nav ul li ul{
   position: absolute;
   display: none;
 }
-nav ul li ul:hover{
+nav ul li ul:focus{
   display: block;
 }
 nav ul li ul:before{
