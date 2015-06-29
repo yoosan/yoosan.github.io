@@ -12,7 +12,7 @@ $(document).ready(function() {
 		window.open("http://blog.yoosan.me");
 	});
 	$('section > div >div > div >#mathant').click(function(){
-		window.open("http://www.mathant.com");
+		window.open("resume.pdf");
 	});
 	$('section > div >div > div >#entertainment').click(function(){
 		window.open("entertainment.html");
