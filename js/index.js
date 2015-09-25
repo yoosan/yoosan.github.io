@@ -3,10 +3,10 @@ $(document).ready(function() {
 		window.open("projects.html");
 	});
 	$('section > div >div > div >#github').click(function(){
-		window.open("http://github.com/yoosan");
+		window.open("https://www.github.com/yoosan");
 	});
 	$('section > div >div > div >#linkedin').click(function(){
-		window.open("http://www.linkedin.com/profile/preview?locale=zh_CN&trk=prof-0-sb-preview-primary-button");
+		window.open("cn.linkedin.com/in/yoosan");
 	});
 	$('section > div >div > div >#blog').click(function(){
 		window.open("http://blog.yoosan.me");
