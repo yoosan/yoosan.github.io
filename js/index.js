@@ -3,16 +3,16 @@ $(document).ready(function() {
 		window.open("projects.html");
 	});
 	$('section > div >div > div >#github').click(function(){
-		window.open("http://github.com/cliviazhou");
+		window.open("http://github.com/yoosan");
 	});
 	$('section > div >div > div >#linkedin').click(function(){
-		window.open("http://cn.linkedin.com/in/Yoosan/");
+		window.open("http://www.linkedin.com/profile/preview?locale=zh_CN&trk=prof-0-sb-preview-primary-button");
 	});
 	$('section > div >div > div >#blog').click(function(){
 		window.open("http://blog.yoosan.me");
 	});
 	$('section > div >div > div >#mathant').click(function(){
-		window.open("http://www.mathant.com");
+		window.open("static/resume.pdf");
 	});
 	$('section > div >div > div >#entertainment').click(function(){
 		window.open("entertainment.html");

@@ -1,11 +1,11 @@
 body{
   margin: 0;
-  background-color: #8B8B7A;
+  background-color: rgba(18, 30, 32, 0.82);
 }
 
 a{
   text-decoration: none;
-  color: #9400d3;
+  color: #2e7acf;
 }
 a:hover{
   color: #fff;
@@ -92,12 +92,12 @@ div p{
   text-decoration: none;
   font-family: verdana;
   font-size: 5em;
-  color: #9400d3;
+  color: #2e7acf;
   z-index: -2px;
 }
 div p a {
   text-decoration: none;
-  color: #9400d3;
+  color: #2e7acf;
   text-indent: none;
 }
 hr{
@@ -129,8 +129,8 @@ section #viewMe .box{
     margin: 0 auto;
     line-height: 120px;
     text-align: center;
-    color: #9400d3;
-    border: 1px solid #9400d3;
+    color: #2e7acf;
+    border: 1px solid #2e7acf;
     -webkit-border-radius: 50%;
     -webkit-background-clip: padding-box;
     -moz-border-radius: 50%;
@@ -149,7 +149,7 @@ section #viewMe .box{
     transform: rotate(0);
 }
 section #viewMe .box:hover{
-    background: #9400d3;
+    background: #2e7acf;
     color: #ffffff;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -176,7 +176,7 @@ section #viewMe .box a{
   left: 10px;
   font-family: Verdana;
   font-size: 22px;
-  color: #D2691E;
+  color: #2e7acf;
 }
 
 .title{
@@ -198,7 +198,7 @@ section #viewMe .box a{
 header h2{
   text-align: center;
   text-decoration: none;
-  color: #9400d3;
+  color: #2e7acf;
   font-size: 32px;
 }
 #picBox{
