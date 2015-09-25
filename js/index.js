@@ -6,7 +6,7 @@ $(document).ready(function() {
 		window.open("https://www.github.com/yoosan");
 	});
 	$('section > div >div > div >#linkedin').click(function(){
-		window.open("cn.linkedin.com/in/yoosan");
+		window.open("http://cn.linkedin.com/in/yoosan");
 	});
 	$('section > div >div > div >#blog').click(function(){
 		window.open("http://blog.yoosan.me");
