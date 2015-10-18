@@ -11,8 +11,8 @@ $(document).ready(function() {
 	$('section > div >div > div >#blog').click(function(){
 		window.open("http://blog.yoosan.me");
 	});
-	$('section > div >div > div >#mathant').click(function(){
-		window.open("static/resume.pdf");
+	$('section > div >div > div >#resume').click(function(){
+		window.open("static/cv_15.pdf");
 	});
 	$('section > div >div > div >#entertainment').click(function(){
 		window.open("entertainment.html");
