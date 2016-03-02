@@ -12,7 +12,7 @@ $(document).ready(function() {
 		window.open("http://blog.yoosan.me");
 	});
 	$('section > div >div > div >#resume').click(function(){
-		window.open("static/cv_15.pdf");
+		window.open("static/cv_16.pdf");
 	});
 	$('section > div >div > div >#entertainment').click(function(){
 		window.open("entertainment.html");
