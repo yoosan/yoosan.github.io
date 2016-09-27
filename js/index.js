@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	$('section > div >div > div >#projects').click(function(){
-		window.open("projects.html");
+	$('section > div >div > div >#info').click(function(){
+		window.open("info.html");
 	});
 	$('section > div >div > div >#github').click(function(){
 		window.open("https://www.github.com/yoosan");
@@ -14,8 +14,8 @@ $(document).ready(function() {
 	$('section > div >div > div >#resume').click(function(){
 		window.open("static/cv.pdf");
 	});
-	$('section > div >div > div >#entertainment').click(function(){
-		window.open("entertainment.html");
+	$('section > div >div > div >#misc').click(function(){
+		window.open("misc.html");
 	});
 	$('header > nav > ul > li').hover(
 		function(){

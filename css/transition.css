@@ -12,10 +12,12 @@ header{
 header h2{
   padding-top: 20px;
   font-size: 35px;
+  color:white;
 }
 header p{
   padding-bottom: 20px;
   font-size: 25px;
+  color:white;
 }
 
 div div{
@@ -32,7 +34,7 @@ div div p{
   padding-top: 10px;
   font-family:Arial;
   font-size:28px;
-  color:rgba(0,0,0,0.5);
+  color:rgba(0,0,0.5,0.5);
   
 }
 #wrapper:hover div, #wrapper:focus div{
