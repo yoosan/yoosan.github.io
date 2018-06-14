@@ -215,7 +215,6 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 
 
 .pic{
-  position: relative;
   margin: 50px auto;
   width: 360;
   height: 240px;
